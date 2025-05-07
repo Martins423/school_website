@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+body{
+ font-family:"Poppins", sans-serif; 
+}
+
+:root {
+  --primary-color: #2986CC;
+  --secondary-color: #007B77;
+  --accent-color: #FF9800;
+  --neutral-light: #F5F5F5;
+  --neutral-dark: #333333;
+}
+
+/* .student-section{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+.student-section-table-box{
+  width: 100%;
+  padding: 20px;
+  background-color: var(--neutral-light);
+} */

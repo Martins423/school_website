@@ -1,0 +1,137 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+body{
+ font-family:"Poppins", sans-serif; 
+}
+
+:root {
+  --primary-color: #2986CC;
+  --secondary-color: #007B77;
+  --accent-color: #FF9800;
+  --neutral-light: #F5F5F5;
+  --neutral-dark: #333333;
+}
+
+/* FIRST SECTION */
+.first-section{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.bg-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 9, 9, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  text-align: center;
+  padding: 20px;
+  z-index: 2;
+}
+
+.first-section-content{
+  z-index: 3;
+}
+
+/* SECOND-SECTION */
+.about-us-section{
+  padding: 80px 0;
+}
+
+.about-us-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.about-us-content span{
+  color: var(--accent-color);
+}
+
+.about-us-list i{
+  color: var(--accent-color);
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+/* THIRD SECTION */
+.mission-vision-section{
+  padding: 80px 0;
+  background-color: var(--neutral-light);
+}
+
+.mission-vision-text{
+  padding: 0 40px;
+}
+
+.mission-vision-text span{
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.mission-vision-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.mission-vision-box{
+  padding: 20px;
+ 
+}
+
+.mission-vision-box h5{
+  font-size: 20px;
+  color: var(--neutral-dark);
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.mission-vision-box p{
+  font-size: 16px;
+  color: var(--neutral-dark);
+  margin: 10px 0;
+} 
+
+.mission-vision-box i{
+  color: var(--accent-color);
+  border: 1px solid var(--neutral-light);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  transition: all 0.3s ease;
+}
+
+.mission-vision-box i:hover{
+  background-color: var(--accent-color);
+  color: #fff;
+  transition: all 0.5s ease;
+}

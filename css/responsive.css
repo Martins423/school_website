@@ -1,0 +1,156 @@
+/* FIRST SECTION */
+
+/* SECOND SECTION */
+@media (max-width:768px) {
+  .service-card{
+    padding: 15px;
+  }
+
+  .service-icon{
+    font-size: 2rem;
+    margin-bottom: .75rem;
+  }
+
+  .card-title{
+    font-size: 1.25rem;
+    margin-bottom: .075rem;
+  }
+
+  .card-text{
+    font-size: 0.9rem;
+  }
+  
+}
+@media(max-width:576px) {
+  .service-section{
+    padding: 2rem 0;
+  }
+
+  .service-card {
+    padding: 10px;
+  }
+
+  .service-icon{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+
+  .card-title{
+    font-size: 1.1rem;
+    margin-bottom: .05rem;
+  }
+
+  .card-text{
+    font-size: 0.8rem;
+  }
+}
+
+/* THIRD SECTION */
+@media (max-width:768px) {
+  .lecturers-section h2{
+    font-size: 2rem;
+  }
+
+  .lecturers-card img{
+    height: 25px;
+  }
+}
+
+
+/* FOURTH SECTION */ 
+  @media (max-width:768px) {
+    .video-tour-section{
+      height: 50vh;
+    }
+
+    .video-tour-section h1{
+      font-size: 2rem;
+    }
+
+    .video-tour-section p{
+      font-size: 1rem;
+    }
+
+    .play-btn{
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  /* FIFTH-SECTION */
+  @media (max-width: 768px) {
+    .news-item, .event-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .news-img, .event-date-box {
+      margin-bottom: 10px;
+    }
+  
+    .news-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .event-date-box {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+
+  /* SIXTH SECTION */
+  @media (max-width: 768px) {
+    .courses-img-box {
+      height: 180px;
+    }
+  
+    .overlay-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .overlay-text p {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* ABOUT US SECTION */
+
+  /* FIRST SECTION */
+
+  /* SEOND SECTION */
+  @media (max-width: 991px) {
+    
+    .about-us-section h2 {
+      font-size: 2rem;
+    }
+  
+    .about-us-section p.small {
+      font-size: 0.95rem;
+    }
+  
+    .about-us-section img {
+      margin-top: 30px;
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .about-us-section {
+      padding: 40px 0;
+    }
+  
+    .about-us-section h2 {
+      font-size: 1.7rem;
+    }
+  
+    .about-us-list li {
+      font-size: 0.9rem;
+    }
+  
+    .about-us-section img {
+      height: 250px;
+    }
+  }
+  
